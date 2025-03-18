@@ -10,10 +10,9 @@ export default function Header() {
       <div className="container">
         <Logo />
 
-        <Nav className="nav" />
-        <Sign className="sign" />
+        <Nav />
+        <Sign />
 
-        <img src="/src/assets/menu.png" alt="menu" className="img"/>
       </div>
     </div>
   );
