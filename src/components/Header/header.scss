@@ -8,27 +8,7 @@
   .container {
     display: flex;
     height: 36px;
-    .img{
-      display: none;
-    }
+
   }
   
-}
-@media (max-width: 376px) {
-
-  .wr_header {
-    max-width: 337px;
-    margin: auto;
-    margin-top: 15px;
-  
-    .container {
-      display: flex;
-      height: 36px;
-      .img{
-        display: block;
-      }
-
-    }
-    
-  }
 }
