@@ -1,0 +1,21 @@
+.sign {
+  display: flex;
+  margin-left: 173px;
+  gap: 10px;
+  font-family: 'Rubik'; /* Шрифт для "Lasles" */
+  font-weight: normal;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 101px;
+  }
+  .btn {
+    border: 2px solid #f53838;
+    border-radius: 20px;
+    width: 101px;
+    color: #f53838;
+    background-color: white;
+    
+  }
+}

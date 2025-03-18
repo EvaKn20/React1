@@ -1,0 +1,35 @@
+.items {
+  display: flex;
+  padding: 34px 48.5px;
+  justify-content: space-between;
+  .item {
+    display: flex;
+    gap: 23px;
+    .img1{
+        padding: 4.5px 0;
+    }
+    .span_item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      .span_item1 {
+        font-family: "Rubik"; 
+        font-weight: 600;
+        font-size: 20px;
+        color: #2b2b2b;
+        
+      }
+      .span_item2 {
+        font-family: "Rubik"; 
+        font-weight: normal;
+        font-size: 20px;
+        color:  #646464;
+      }
+    }
+  }
+  .divider {
+    width: 1.5px; /* Толщина полоски */
+    height: 40px; /* Высота полоски */
+    background-color: gray; /* Цвет полоски */
+  }
+}

@@ -1,0 +1,121 @@
+.map_container {
+  position: relative;
+  background: url("/src/assets/map.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1060px;
+  height: 539px;
+  margin-bottom: 33px;
+  overflow: hidden;
+
+  .signal1 {
+    position: absolute;
+    background: url("/src/assets/signal1.png");
+    background-repeat: no-repeat;
+    
+    height: 100%;
+    width: 100%;
+  }
+  .signal11 {
+    top: 116px;
+    left: 165px;
+  }
+  .signal12 {
+    top: 141px;
+    left: 751px;
+  }
+  .signal2{
+    position: absolute;
+    background: url("/src/assets/signal2.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+  .signal21{
+    top: 190px;
+    left: 189px;
+  }
+  .signal22{
+    top: 254px;
+    left: 533px;
+  }
+  .signal23{
+    top: 204px;
+    left: 683px;
+  }
+  .signal3{
+    position: absolute;
+    background: url("/src/assets/signal3.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;}
+    .signal31{
+      top: 6px;
+      left: 270px;
+    }
+    .signal32{
+      top: 18px;
+      left: 359px;
+    }
+    .signal33{
+      top: 68px;
+      left: 359px;
+    }
+    .signal34{
+      top: 92px;
+      left: 119px;
+    }
+    .signal35{
+      top: 139px;
+      left: 277px;
+    }
+    .signal36{
+      top: 341px;
+      left: 289px;
+    }
+    .signal37{
+      top: 365px;
+      left: 352px;
+    }
+    .signal38{
+      top: 420px;
+      left: 307px;
+    }
+    .signal39{
+      top: 258px;
+      left: 469px;
+    }
+    .signal310{
+      top: 314px;
+      left: 549px;
+    }
+    .signal311{
+      top: 403px;
+      left: 561px;
+    }
+    .signal312{
+      top: 403px;
+      left: 869px;
+    }
+    .signal313{
+      top: 427px;
+      left: 916px;
+    }
+    .signal314{
+      top: 242px;
+      left: 796px;
+    }
+    .signal315{
+      top: 115px;
+      left: 688px;
+    }
+    .signal316{
+      top: 141px;
+      left: 620px;
+    }
+    .signal317{
+      top: 92px;
+      left: 857px;
+    }
+  
+}

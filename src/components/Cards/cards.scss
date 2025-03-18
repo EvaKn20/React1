@@ -1,0 +1,95 @@
+.cards {
+  margin-top: 64px;
+  display: flex;
+  gap: 29px;
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d3d3d3;
+    border-radius: 20px;
+    cursor: pointer;
+    &:hover {
+      border: 2px solid red;
+    }
+    .card_desc {
+      padding: 22px 56.5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .card_desc1 {
+        margin-top: 40px;
+        margin-bottom: 55px;
+        font-family: "Rubik";
+        font-weight: 600;
+        font-size: 20px;
+      }
+      .wrap_card_desc {
+        display: flex;
+        margin-bottom: 223px;
+        flex-direction: column;
+        gap: 40px;
+        font-family: "Rubik";
+        font-weight: normal;
+        .wrap_container_desc {
+          display: flex;
+          gap: 14px;
+        }
+      }
+      .wrap_card_desc1 {
+        display: flex;
+        margin-bottom: 95px;
+        flex-direction: column;
+        gap: 40px;
+        font-family: "Rubik";
+        font-weight: normal;
+        .wrap_container_desc {
+          display: flex;
+          gap: 14px;
+        }
+      }
+      .wrap_card_desc2 {
+        display: flex;
+        margin-bottom: 31px;
+        flex-direction: column;
+        gap: 40px;
+        font-family: "Rubik";
+        font-weight: normal;
+        .wrap_container_desc {
+          display: flex;
+          gap: 14px;
+        }
+      }
+
+      .card_desk2 {
+        font-family: "Rubik";
+        font-weight: 600;
+        font-size: 28px;
+      }
+      .card_desk3 {
+        font-family: "Rubik";
+        font-weight: 600;
+        font-size: 28px;
+        color: #646464;
+      }
+      .card_desk4 {
+        font-family: "Rubik";
+        font-weight: normal;
+        font-size: 20px;
+        color: #646464;
+      }
+      .btn2 {
+        margin-top: 22px;
+        border-radius: 20px;
+        width: 173px;
+        height: 45px;
+        background-color: red;
+        border: none;
+        color: white;
+        font-family: "Rubik";
+        font-weight: 500;
+        font-size: 20px;
+      }
+    }
+  }
+}

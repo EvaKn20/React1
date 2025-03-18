@@ -1,0 +1,66 @@
+.comments_wrapper {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 27px;
+  .comment_wrapper {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20.5px 38px;
+    cursor: pointer;
+    &:hover{
+      border: 1px solid red;
+    }
+    
+    .header_comment {
+      display: flex;
+      gap: 21px;
+      flex-direction: column;
+.header_comment1{
+    display: flex;
+    gap: 28px;
+
+        .header_comment_name {
+            width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 6px;
+          padding: 9.5px 0;
+          .header_comment_country {
+            display: flex;
+            justify-content: space-between;
+            .comment_star {
+              display: flex;
+              gap: 10px;
+              .star_img{
+                padding: 1.55px 0;
+              }
+              .star_name{
+                font-family: "Rubik"; 
+                font-weight: 500;
+                font-size: 15px;
+                color: #7b7b7b;
+              }
+            }}
+          }
+          .comment_name {
+            font-family: "Rubik"; 
+            font-weight: 600;
+            font-size: 18px;
+          }
+          .comment_country {
+            font-family: "Rubik"; 
+            font-weight: normal;
+            font-size: 15px;
+            color: #7b7b7b;
+          }
+        }
+        .header_comment_desc{
+            font-family: "Rubik"; 
+            font-weight: normal;
+            font-size: 16px;
+            color: #5A5A5A;
+        }
+      }
+    
+  }
+}

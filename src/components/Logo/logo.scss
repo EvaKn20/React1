@@ -1,0 +1,19 @@
+.logo{
+    display: flex;
+    gap: 11px;
+    margin-right: 121px;
+    align-items: center;
+    cursor: pointer;
+    .lasles {
+        font-family: 'Rubik'; 
+        font-weight: normal;
+        font-size: 18px;
+
+      }
+      .vpn {
+        font-family: 'Rubik'; 
+        font-weight: 600;
+        font-size: 18px;
+
+      }
+}

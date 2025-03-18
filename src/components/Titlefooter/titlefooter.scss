@@ -1,0 +1,27 @@
+.titlefooter_wrap{
+    display: flex;
+    gap: 93px;
+    .titlefooter1{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        .titlefooter11{
+            font-family: "Rubik"; 
+            font-weight: 600;
+            
+        }
+        .titlefooter12{
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            color: #646464;
+            font-family: "Rubik"; 
+            font-weight: normal;
+            font-size: 15px;
+            .partner{
+                width: 113px;
+            }
+
+        }
+    }
+}

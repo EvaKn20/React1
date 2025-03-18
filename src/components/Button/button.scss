@@ -1,0 +1,43 @@
+.custom_btn {
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+
+  &.white {
+    border: 2px solid #f53838;
+    width: 101px;
+    color: #f53838;
+    background-color: white;
+  }
+  &.red1 {
+    width: 193px;
+    height: 54px;
+    background-color: red;
+    color: white;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 58px;
+  }
+  &.red2 {
+    margin-top: 22px;
+    width: 173px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 20px;
+  }
+  &.red3{
+    width: 244px;
+    height: 57px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-family: "Rubik";
+    font-weight: 600;
+    font-size: 18px;
+
+  }
+}

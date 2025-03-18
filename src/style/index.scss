@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit; 
+    text-decoration: none; 
+  }
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../assets/fonts/RubikRegular.woff2") format("woff2"),
+         url("../assets/fonts/RubikRegular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Rubik";
+    src: url("../assets/fonts/RubikMedium.woff2") format("woff2"),
+         url("../assets/fonts/RubikMedium.woff2") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Rubik";
+    src: url("../assets/fonts/RubikBold.woff2") format("woff2"),
+         url("../assets/fonts/RubikBold.woff2") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+      font-family: "Rubik";
+      src: url("../assets/fonts/rubik-semibold.woff2") format("woff2"),
+           url("../assets/fonts/rubik-semibold.woff2") format("woff");
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }

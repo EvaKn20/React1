@@ -1,0 +1,36 @@
+.desc1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  .desc11 {
+    margin-bottom: 42px;
+    .span1 {
+      font-family: "Rubik";
+      font-weight: normal;
+      font-size: 50px;
+    }
+    .span2 {
+      font-family: "Rubik";
+      font-weight: 600;
+      font-size: 50px;
+    }
+  }
+  .desc12{
+    font-family: "Rubik"; 
+      font-weight: normal;
+      font-size: 16px;
+      color: #5A5A5A;
+  }
+  .btn2{
+    border-radius: 20px;
+width: 193px;
+height: 54px;
+background-color: red;
+color: white;
+font-family: "Rubik"; 
+      font-weight: normal;
+      font-size: 18px;
+      border: none;
+      margin-top: 58px;
+  }
+}
